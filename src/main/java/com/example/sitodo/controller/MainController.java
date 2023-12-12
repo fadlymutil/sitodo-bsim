@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class MainController {
 
-    @GetMapping(method = RequestMethod.GET, value = "/")
+   // @RequestMapping(method = RequestMethod.GET, value = "/") --code smell
+    @GetMapping(value = "/")
     public String showMainPage() {
         return "redirect:/list";
     }
