@@ -19,8 +19,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<encoding>UTF-8</encoding>
 		<java.version>17</java.version>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.organization>fadlymutil</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.projectKey>fadlymutil_sitodo-bsim</sonar.projectKey>
 		<sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 		<!-- Serenity & Cucumber-related configuration properties -->
